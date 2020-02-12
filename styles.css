@@ -1,0 +1,85 @@
+/* Add CSS for your webpage here
+
+CSS requirements:
+* a tag selector x
+* a class selector x
+* an id selector
+* use the following attributes: height, width, border, color, background-color, font-size x
+* add margin and padding to two different elements  x
+
+Stretch Goal: Use online resources to learn a little about the CSS properties of 'display' and 'position'. Incorporate them into your page. x
+*/
+
+#main{
+    font-family: 'Rubik', sans-serif;
+    margin:15px;
+    background-color:grey;
+}
+.sp-acomplish{
+    color:blue;
+    text-transform: capitalize;
+    font-size:25px;
+    font-weight:600;
+    padding-right: 30px;
+}
+.sp-button-container{
+    position:absolute;
+    top:80px;
+    right:50px;
+}
+.sp-email{
+    position:relative;
+    left: 50px;
+}
+.sp-footer{
+    height:100px;
+    background-color:crimson;
+    position: relative;
+    bottom: 10px;
+    border: solid black 10px;
+}
+.sp-img{
+    display:block;
+    height:100%;
+    width: auto;
+    margin: 0 auto;
+}
+.sp-phone-container{
+    position: relative;
+    font-weight:900;
+    left: 150px;
+    bottom: 35px;
+}
+.sp-reasons{
+    margin:15px;
+}
+.sp-results{
+    color:rgb(0, 71, 10);
+    text-shadow: black -2px -2px; 
+    text-transform: capitalize;
+    font-size:25px;
+    font-weight:600;
+    padding-left: 30px;
+}
+.sp-flex-list{
+    list-style: none;
+    display:flex;
+    align-items:center;
+    justify-content: center
+}
+.sp-h1{
+    font-size:25px;
+    color: black;
+    text-transform: uppercase;
+    font-weight:900;
+    text-align: center;
+    padding-top:2.5%;
+}
+.sp-h2{
+    position:relative;
+    left: 25px;
+}
+.sp-header{
+    background-color:crimson;
+    height:100px;
+}
