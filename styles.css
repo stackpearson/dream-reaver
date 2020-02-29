@@ -40,8 +40,8 @@ Stretch Goal: Use online resources to learn a little about the CSS properties of
 }
 .sp-img{
     display:block;
-    height:100%;
-    width: auto;
+    max-width:100%;
+    height: auto;
     margin: 0 auto;
 }
 .sp-phone-container{
@@ -52,6 +52,8 @@ Stretch Goal: Use online resources to learn a little about the CSS properties of
 }
 .sp-reasons{
     margin:15px;
+    display:flex;
+    flex-direction:column;
 }
 .sp-results{
     color:rgb(0, 71, 10);
@@ -82,4 +84,9 @@ Stretch Goal: Use online resources to learn a little about the CSS properties of
 .sp-header{
     background-color:crimson;
     height:100px;
+}
+@media screen and (max-width: 550px){
+    .sp-arrow{
+        display:none;
+    }
 }
